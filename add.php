@@ -1,14 +1,14 @@
 <?php 
+
     $add = function(){
         $resultat = 0;
-        foreach (func_get_args($resultat) as $value){
-
-            if ($value >= - 100 && $value <= 1000){
-                $resultat += $value;
+        foreach(func_get_args() as $nombre){
+            if ($nombre >= -100 && $nombre <= 1000){
+                $resultat = $resultat + $nombre;
             }
         }
-        echo $resultat;
+        return $resultat;
     };
 
-    $add(5,5,-300,2000,4,7);
-?>
+
+    
