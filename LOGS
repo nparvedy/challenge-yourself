@@ -2,12 +2,12 @@
 ---------------------
 [Test] Run test : add
 [Test] Run File : ./challenge-yourself/parvedyn/add.php
-[Test] "add(1, 2, 333, -99)" : KO
-[Test] "add(1, 2, 3, -101)" : KO
-[Test] "add(1, 2, 3, 1001)" : KO
-[Test] "add(1, "a")" : OK
-[Test] "add(999)" : KO
-Score : 20%
+[Test] "add(1, 2, 333, -99)" : OK
+[Test] "add(1, 2, 3, -101)" : OK
+[Test] "add(1, 2, 3, 1001)" : OK
+[Test] "add(1, "a")" : KO
+[Test] "add(999)" : OK
+Score : 80%
 Test for add END 
  ---------------------
  
