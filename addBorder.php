@@ -1,0 +1,3 @@
+<?php $image = ["abc", "ded"];
+
+?>
