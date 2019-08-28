@@ -9,28 +9,16 @@
 <body>
     <?php 
 
-        $number1 = 1;
-        $number2 = 3;
-        $number3 = 5;
-        $number4 = 3;
-
-        function add($number1, $number2){
-            $resultat = $number1 + $number2;
-            echo "<p>La somme de mes deux premiers nombres vaut : $resultat</p>";
+        function add($premierNombre, $deuxiemeNombre){
+           if ($premierNombre >= - 100 && $premierNombre <= 1000 && $deuxiemeNombre >= - 100 && $deuxiemeNombre){
+                $resultat = $premierNombre + $deuxiemeNombre;
+                echo $resultat;
+            }else {
+                echo "err\n";
+            }
         }
 
-        add($number1, $number2);
-        add($number3,$number4);
-
-        $tableauNombre = [
-            5,2,3,2,3
-        ];
-
-        function returnOfAllNumber($tableauNombre){
-            echo array_sum($tableauNombre);
-        }
-
-        returnOfAllNumber($tableauNombre);
+        add(1,3);
     ?>
 </body>
 </html>
