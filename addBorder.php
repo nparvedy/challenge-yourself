@@ -28,5 +28,3 @@
     $addBorder($image);
 ?>
 
-<!-- strlen($image[$i]) >= 1 && strlen($image[$i]) <= 5 -->
-
