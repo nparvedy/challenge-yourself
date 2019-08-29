@@ -2,12 +2,28 @@
 ---------------------
 [Test] Run test : add
 [Test] Run File : ./challenge-yourself/parvedyn/add.php
-[Test] "add(1, 2, 333, -99)" : KO
-[Test] "add(1, 2, 3, -101)" : KO
-[Test] "add(1, 2, 3, 1001)" : KO
-[Test] "add(1, "a")" : OK
-[Test] "add(999)" : KO
-Score : 20%
-Test for add END 
+[Test] Your script doesn't pass php validation : ./challenge-yourself/parvedyn/add.php
+Error===6
+
+---------------------
+[Test] Run test : addBorder
+[Test] Run File : ./challenge-yourself/parvedyn/addBorder.php
+[Test] Your script doesn't pass php validation : ./challenge-yourself/parvedyn/addBorder.php
+Error===6
+*******<br />*ab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abc&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abcd&nbsp;&nbsp;*<br />*abcde*<br />*******
+
+---------------------
+[Test] Run test : addTwoDigits
+[Test] Run File : ./challenge-yourself/parvedyn/addTwoDigits.php
+[Test] "addTwoDigits(12) => 3" : OK
+[Test] "addTwoDigits(9) => err\n" : OK
+[Test] "addTwoDigits(100) => err\n" : OK
+[Test] "addTwoDigits("a") => err\n" : OK
+[Test] "addTwoDigits("11") => err\n" : OK
+[Test] "addTwoDigits(null) => err\n" : OK
+[Test] "addTwoDigits(10) => 1" : OK
+[Test] "addTwoDigits(99) => 18" : OK
+Score : 100%
+Test for addTwoDigits END 
  ---------------------
  
