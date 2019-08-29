@@ -9,7 +9,9 @@ $add = function(){
             return false;
         }
     }
-    return $resultat;
+    echo $resultat;
 };
+
+$add(1,2,3);
 
     ?>
