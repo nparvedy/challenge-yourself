@@ -3,22 +3,19 @@
 [Test] Run test : add
 [Test] Run File : ./challenge-yourself/parvedyn/add.php
 [Test] Your script doesn't pass php validation : ./challenge-yourself/parvedyn/add.php
-Error===6
+Error===15
 
 ---------------------
 [Test] Run test : addBorder
 [Test] Run File : ./challenge-yourself/parvedyn/addBorder.php
 [Test] Your script doesn't pass php validation : ./challenge-yourself/parvedyn/addBorder.php
-Error===6
-*******<br />*ab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abc&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abcd&nbsp;&nbsp;*<br />*abcde*<br />*******
+Error===*******<br />*ab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abc&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abcd&nbsp;&nbsp;*<br />*abcde*<br />*******
 
 ---------------------
 [Test] Run test : addTwoDigits
 [Test] Run File : ./challenge-yourself/parvedyn/addTwoDigits.php
 [Test] Your script doesn't pass php validation : ./challenge-yourself/parvedyn/addTwoDigits.php
-Error===6
-*******<br />*ab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abc&nbsp;&nbsp;&nbsp;&nbsp;*<br />*abcd&nbsp;&nbsp;*<br />*abcde*<br />*******
-phpinfo()
+Error===phpinfo()
 PHP Version => 7.1.23
 
 System => Darwin MacBook-Pro-de-Yannis.local 18.6.0 Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64 x86_64
@@ -914,8 +911,8 @@ $_SERVER['SCRIPT_NAME'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['SCRIPT_FILENAME'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['PATH_TRANSLATED'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['DOCUMENT_ROOT'] =>
-$_SERVER['REQUEST_TIME_FLOAT'] => 1567501291.85
-$_SERVER['REQUEST_TIME'] => 1567501291
+$_SERVER['REQUEST_TIME_FLOAT'] => 1567519406.9049
+$_SERVER['REQUEST_TIME'] => 1567519406
 $_SERVER['argv'] => Array
 (
     [0] => ./challenge-yourself/parvedyn/addTwoDigits.php
@@ -964,8 +961,8 @@ questions about PHP licensing, please contact license@php.net.
 ---------------------
 [Test] Run test : allLongestString
 [Test] Run File : ./challenge-yourself/parvedyn/allLongestString.php
-[Test] "allLongestString(["a", "aa", "ad", "cd", "ab","a", "aa", "ad", "cd", "ab", "a"]) => err\n" : OK
-[Test] "allLongestString(["aaaaaaaaaaaa", "aa", "ad", "cd"]) => err\n" : KO
+[Test] "allLongestString(["a", "aa", "ad", "cd", "ab","a", "aa", "ad", "cd", "ab", "a"]) => err\n" : KO
+[Test] "allLongestString(["aaaaaaaaaaaa", "aa", "ad", "cd"]) => err\n" : OK
 [Test] "allLongestString(["aa", "aa", "ad", "cd"]) => ["aa", "aa", "ad", "cd"]" : OK
 [Test] "allLongestString(["aaa", "aa", "ad", "cd"]) => ["aaa"]" : KO
 [Test] "allLongestString(["aaa", "aa", "adc", "cd"]) => ["aaa", "adc"]" : KO
@@ -976,4 +973,8 @@ Test for allLongestString END
 [Test] Run test : chunkyMonkey
 [Test] Run File : ./challenge-yourself/parvedyn/chunkyMonkey.php
 [Test] File not found : ./challenge-yourself/parvedyn/chunkyMonkey.php
+---------------------
+[Test] Run test : sortByHeight
+[Test] Run File : ./challenge-yourself/parvedyn/sortByHeight.php
+[Test] File not found : ./challenge-yourself/parvedyn/sortByHeight.php
 =>Final Score passed : 0 %
