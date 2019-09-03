@@ -12,6 +12,6 @@ $add = function(){
     echo $resultat;
 };
 
-$add(1,2,3);
+$add(1,2,3,3,2,4);
 
     ?>

@@ -2,9 +2,12 @@
 $tableau = ["aba", "aa", "ad", "vcd", "aba"];
 $allLongestString = function($array){
     for ($i = 0; $i < count($array); $i++){
-        if (strlen($array[$i]) >= 2){
-            unset($array[$i]);
-        }else {
+        if (strlen($array[$i]) >= 1 && strlen($array[$i]) <= 10){
+            if (strlen($array[$i]) >= 1 && strlen($array[$i]) <= 2){
+                unset($array[$i]);
+            }
+            
+        }else{
             return "err\n";
         }
     }
@@ -13,4 +16,5 @@ $allLongestString = function($array){
 
 $allLongestString($tableau);
 ?>
+
 
