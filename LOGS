@@ -911,8 +911,8 @@ $_SERVER['SCRIPT_NAME'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['SCRIPT_FILENAME'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['PATH_TRANSLATED'] => ./challenge-yourself/parvedyn/addTwoDigits.php
 $_SERVER['DOCUMENT_ROOT'] =>
-$_SERVER['REQUEST_TIME_FLOAT'] => 1567521377.8651
-$_SERVER['REQUEST_TIME'] => 1567521377
+$_SERVER['REQUEST_TIME_FLOAT'] => 1567523651.4117
+$_SERVER['REQUEST_TIME'] => 1567523651
 $_SERVER['argv'] => Array
 (
     [0] => ./challenge-yourself/parvedyn/addTwoDigits.php
@@ -961,12 +961,12 @@ questions about PHP licensing, please contact license@php.net.
 ---------------------
 [Test] Run test : allLongestString
 [Test] Run File : ./challenge-yourself/parvedyn/allLongestString.php
-[Test] "allLongestString(["a", "aa", "ad", "cd", "ab","a", "aa", "ad", "cd", "ab", "a"]) => err\n" : KO
-[Test] "allLongestString(["aaaaaaaaaaaa", "aa", "ad", "cd"]) => err\n" : KO
+[Test] "allLongestString(["a", "aa", "ad", "cd", "ab","a", "aa", "ad", "cd", "ab", "a"]) => err\n" : OK
+[Test] "allLongestString(["aaaaaaaaaaaa", "aa", "ad", "cd"]) => err\n" : OK
 [Test] "allLongestString(["aa", "aa", "ad", "cd"]) => ["aa", "aa", "ad", "cd"]" : OK
 [Test] "allLongestString(["aaa", "aa", "ad", "cd"]) => ["aaa"]" : OK
 [Test] "allLongestString(["aaa", "aa", "adc", "cd"]) => ["aaa", "adc"]" : OK
-Score : 60%
+Score : 100%
 Test for allLongestString END 
  ---------------------
  ---------------------
@@ -977,4 +977,4 @@ Test for allLongestString END
 [Test] Run test : sortByHeight
 [Test] Run File : ./challenge-yourself/parvedyn/sortByHeight.php
 [Test] File not found : ./challenge-yourself/parvedyn/sortByHeight.php
-=>Final Score passed : 0 %
+=>Final Score passed : 16.666666666667 %
